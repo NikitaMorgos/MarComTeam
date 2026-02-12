@@ -318,6 +318,42 @@ body {
 }
 
 /* ===== OKR ===== */
+.okr-hierarchy {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.okr-person-block {
+  border-left: 3px solid var(--border);
+  padding-left: 16px;
+}
+
+.okr-person-block.okr-person-lead {
+  border-left-color: var(--accent);
+}
+
+.okr-person-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0 0 6px;
+}
+
+.okr-person-names {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0 0 12px;
+}
+
+.okr-person-download {
+  margin: 0 0 12px;
+}
+
+.okr-placeholder {
+  margin-bottom: 0;
+}
+
 .okr-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
