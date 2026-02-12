@@ -354,6 +354,44 @@ body {
   margin-bottom: 0;
 }
 
+.okr-table-wrap {
+  overflow-x: auto;
+  margin: 12px 0 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-main);
+}
+
+.okr-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.okr-table th,
+.okr-table td {
+  padding: 12px 14px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+  white-space: pre-wrap;
+}
+
+.okr-table th {
+  background: var(--bg-sidebar);
+  font-weight: 600;
+  color: var(--text);
+  border-bottom: 2px solid var(--border-strong);
+}
+
+.okr-table tr:last-child td {
+  border-bottom: none;
+}
+
+.okr-table td:nth-child(1) { min-width: 5em; }
+.okr-table td:nth-child(2) { min-width: 12em; }
+.okr-table td:nth-child(3) { min-width: 18em; }
+
 .okr-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
