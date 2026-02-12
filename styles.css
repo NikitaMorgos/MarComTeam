@@ -354,11 +354,29 @@ body {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   font-size: 0.95rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.structure-name {
+  font-weight: 500;
+  color: var(--text);
+}
+
+.structure-role {
+  color: var(--text-muted);
+  font-size: 0.9rem;
 }
 
 .structure-node.root {
   font-weight: 500;
   margin-bottom: 8px;
+}
+
+.structure-node.root .structure-role {
+  font-weight: 400;
 }
 
 .structure-children {
@@ -368,6 +386,24 @@ body {
   padding-left: 20px;
   border-left: 2px solid var(--border);
   margin-left: 14px;
+}
+
+.structure-group {
+  margin-top: 8px;
+}
+
+.structure-group-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 6px;
+  padding-left: 4px;
+}
+
+.structure-group .structure-children {
+  margin-top: 4px;
 }
 
 /* ===== Tasks ===== */
