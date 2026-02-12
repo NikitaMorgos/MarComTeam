@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MarComTeam — Маркетинговые коммуникации</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="logo">
+          <span class="logo-icon">МК</span>
+          <span class="logo-text">MarComTeam</span>
+        </div>
+        <p class="sidebar-subtitle">Маркетинговые коммуникации</p>
+      </div>
+      <nav class="sidebar-nav">
+        <button class="nav-item active" data-section="strategy">
+          <span class="nav-icon">◇</span>
+          <span>Стратегия</span>
+        </button>
+        <button class="nav-item" data-section="okr">
+          <span class="nav-icon">▣</span>
+          <span>OKR</span>
+        </button>
+        <button class="nav-item" data-section="structure">
+          <span class="nav-icon">⊞</span>
+          <span>Структура</span>
+        </button>
+        <button class="nav-item" data-section="tasks">
+          <span class="nav-icon">☑</span>
+          <span>Задачи</span>
+        </button>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="update-info">
+          <p class="update-label">Обновление информации</p>
+          <p class="update-desc">Сырьё и ссылки на отчёты/разговоры отправляйте на отдельный e-mail для обработки AI и синхронизации данных.</p>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="main-header">
+        <h1 class="section-title" id="page-title">Стратегия</h1>
+        <div class="header-actions">
+          <span class="last-update">Обновлено: —</span>
+        </div>
+      </header>
+
+      <article class="content" id="content">
+        <!-- Стратегия -->
+        <section class="section active" id="section-strategy">
+          <div class="block">
+            <h2>Стратегия отдела</h2>
+            <p>Здесь отображается стратегическое направление и приоритеты отдела маркетинговых коммуникаций. Контент обновляется на основе отчётов и решений руководства.</p>
+          </div>
+          <div class="block">
+            <h3>Ключевые направления</h3>
+            <ul class="block-list">
+              <li>Коммуникационная стратегия</li>
+              <li>Целевые аудитории и каналы</li>
+              <li>Ключевые сообщения и позиционирование</li>
+            </ul>
+          </div>
+          <div class="block placeholder">
+            <p class="muted">Данные подгружаются по мере поступления материалов на корпоративную почту.</p>
+          </div>
+        </section>
+
+        <!-- OKR -->
+        <section class="section" id="section-okr">
+          <div class="block">
+            <h2>OKR</h2>
+            <p>Objectives and Key Results — цели и ключевые результаты отдела. Статусы обновляются по отчётам и обратной связи.</p>
+          </div>
+          <div class="okr-grid">
+            <div class="okr-card">
+              <div class="okr-header">
+                <span class="okr-quarter">Q1 2025</span>
+                <span class="okr-status status-draft">Черновик</span>
+              </div>
+              <h3 class="okr-objective">Objective</h3>
+              <p class="okr-desc">Формулировка цели будет добавлена после согласования.</p>
+              <ul class="okr-krs">
+                <li><span class="kr">KR1</span> — ключевой результат 1</li>
+                <li><span class="kr">KR2</span> — ключевой результат 2</li>
+                <li><span class="kr">KR3</span> — ключевой результат 3</li>
+              </ul>
+            </div>
+            <div class="okr-card">
+              <div class="okr-header">
+                <span class="okr-quarter">Q2 2025</span>
+                <span class="okr-status status-planned">Запланировано</span>
+              </div>
+              <h3 class="okr-objective">Objective</h3>
+              <p class="okr-desc">Цели на следующий квартал.</p>
+              <ul class="okr-krs">
+                <li><span class="kr">KR1</span> — …</li>
+                <li><span class="kr">KR2</span> — …</li>
+              </ul>
+            </div>
+          </div>
+          <div class="block placeholder">
+            <p class="muted">OKR заполняются и обновляются на основе отчётов и ссылок, отправленных на выделенный e-mail.</p>
+          </div>
+        </section>
+
+        <!-- Структура -->
+        <section class="section" id="section-structure">
+          <div class="block">
+            <h2>Структура</h2>
+            <p>Организационная структура отдела маркетинговых коммуникаций: роли, зоны ответственности и контакты.</p>
+          </div>
+          <div class="block">
+            <h3>Отдел МК</h3>
+            <div class="structure-tree">
+              <div class="structure-node root">
+                <span>Руководитель направления МК</span>
+              </div>
+              <div class="structure-children">
+                <div class="structure-node">Коммуникации</div>
+                <div class="structure-node">Контент и каналы</div>
+                <div class="structure-node">События и партнёрства</div>
+                <div class="structure-node">Аналитика и отчётность</div>
+              </div>
+            </div>
+          </div>
+          <div class="block placeholder">
+            <p class="muted">Детализация структуры и контактов обновляется по данным от HR и руководителей.</p>
+          </div>
+        </section>
+
+        <!-- Задачи -->
+        <section class="section" id="section-tasks">
+          <div class="block">
+            <h2>Задачи</h2>
+            <p>Трекинг задач отдела: статусы, дедлайны, ответственные. Информация актуализируется по отчётам и письмам на корпоративную почту.</p>
+          </div>
+          <div class="tasks-toolbar">
+            <div class="filter-pills">
+              <button class="pill active">Все</button>
+              <button class="pill">В работе</button>
+              <button class="pill">На проверке</button>
+              <button class="pill">Готово</button>
+            </div>
+          </div>
+          <div class="tasks-list">
+            <div class="task-row">
+              <span class="task-check">☐</span>
+              <div class="task-body">
+                <span class="task-title">Настройка процесса сбора OKR</span>
+                <span class="task-meta">Без срока · Нет ответственного</span>
+              </div>
+              <span class="task-status status-todo">К выполнению</span>
+            </div>
+            <div class="task-row">
+              <span class="task-check">☐</span>
+              <div class="task-body">
+                <span class="task-title">Еженедельный отчёт по задачам</span>
+                <span class="task-meta">Дедлайн: —</span>
+              </div>
+              <span class="task-status status-todo">К выполнению</span>
+            </div>
+            <div class="task-row">
+              <span class="task-check">☑</span>
+              <div class="task-body">
+                <span class="task-title">Запуск страницы МК (Notion-style)</span>
+                <span class="task-meta">Готово</span>
+              </div>
+              <span class="task-status status-done">Готово</span>
+            </div>
+          </div>
+          <div class="block placeholder">
+            <p class="muted">Задачи и статусы обновляются автоматически при обработке писем и отчётов с выделенного e-mail.</p>
+          </div>
+        </section>
+      </article>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
