@@ -1,10 +1,12 @@
 (function () {
-  const sectionIds = ['strategy', 'okr', 'structure', 'tasks'];
+  const sectionIds = ['strategy', 'okr', 'structure', 'tasks', 'metrics', 'reports'];
   const titles = {
     strategy: 'Стратегия',
     okr: 'OKR',
     structure: 'Структура',
-    tasks: 'Задачи'
+    tasks: 'Задачи',
+    metrics: 'Метрики',
+    reports: 'Отчеты'
   };
 
   const navItems = document.querySelectorAll('.nav-item');
