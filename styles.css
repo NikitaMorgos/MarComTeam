@@ -374,6 +374,17 @@ body {
   margin-bottom: 12px;
 }
 
+.okr-subperson-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 16px 0 8px;
+}
+
+.okr-subperson-title:first-of-type {
+  margin-top: 8px;
+}
+
 .okr-period-title {
   font-size: 0.95rem;
   font-weight: 600;
